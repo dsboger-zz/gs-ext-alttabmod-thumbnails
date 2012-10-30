@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.6"], 
+    "uuid": "Force_Thumbnails_On_AltTab@dsboger.com.br", 
+    "name": "Force Thumbnails on Alt Tab", 
+    "description": "Force Alt Tab popup to always show window thumbnails of the selected app. OBS: not guaranteed to work together with other extensions that also modify Alt Tab popup. Tested only with 'Alt Tab Workspace'.",
+    "version": 1
+}
