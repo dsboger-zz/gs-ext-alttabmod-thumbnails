@@ -43,12 +43,12 @@ function init(metadata) {
 }
 
 function enable() {
-    _originalSelect = AltTab.AltTabPopup.prototype._select;
-    AltTab.AltTabPopup.prototype._select = _modifiedSelect();
+    _originalSelect = AltTab.AppSwitcherPopup.prototype._select;
+    AltTab.AppSwitcherPopup.prototype._select = _modifiedSelect();
 }
 
 function disable() {
-    AltTab.AltTabPopup.prototype._select = _originalSelect;
+    AltTab.AppSwitcherPopup.prototype._select = _originalSelect;
     _originalSelect = null;
 }
 
