@@ -32,10 +32,11 @@ function _modifiedSelect() {
         }
         
         if (window == null) {
-            if (!this._thumbnails) {
+			let appIcon = this._items[app];
+            if (!this._thumbnails && appIcon.cachedWindows.length > 0) {
                 this._createThumbnails();
+				this._thumbnails.highlight(0, false);
 			}
-			this._thumbnails.highlight(0, false);
         }
     };
 }
