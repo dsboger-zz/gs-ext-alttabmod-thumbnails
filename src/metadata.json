@@ -1,8 +1,8 @@
 {
-    "shell-version": ["3.6"], 
+    "shell-version": ["3.22"], 
     "uuid": "Force_Thumbnails_On_AltTab@dsboger.com.br", 
     "name": "Alt Tab Mod: Always Show Thumbnails", 
     "description": "Default Alt+Tab behavior is to wait around half a second before showing window thumbnails or not to show thumbnails at all for single window applications. This extension forces Alt+Tab popup to always show window thumbnails of the selected app. This way you can always preview the window you are jumping to.\n\nOBS: not guaranteed to work together with other extensions that also modify Alt+Tab popup. Tested only with 'Alt Tab Workspace' and other 'Alt Tab Mod: ...'.",
-    "version": 1,
+    "version": 2,
     "url": "https://github.com/dsboger/gs-ext-alttabmod-thumbnails"
 }
