@@ -32,9 +32,10 @@ function _modifiedSelect() {
         }
         
         if (window == null) {
-            if (!this._thumbnails)
+            if (!this._thumbnails) {
                 this._createThumbnails();
-            this._thumbnails.highlight(0, true);
+			}
+			this._thumbnails.highlight(0, false);
         }
     };
 }
@@ -43,12 +44,12 @@ function init(metadata) {
 }
 
 function enable() {
-    _originalSelect = AltTab.AltTabPopup.prototype._select;
-    AltTab.AltTabPopup.prototype._select = _modifiedSelect();
+    _originalSelect = AltTab.AppSwitcherPopup.prototype._select;
+    AltTab.AppSwitcherPopup.prototype._select = _modifiedSelect();
 }
 
 function disable() {
-    AltTab.AltTabPopup.prototype._select = _originalSelect;
+    AltTab.AppSwitcherPopup.prototype._select = _originalSelect;
     _originalSelect = null;
 }
 
