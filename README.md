@@ -1,6 +1,8 @@
 Alt Tab Mod: Always Show Thumbnails
 ===================================
 
+**UNMAINTAINED**
+
 GNOME Shell extension. Supports GNOME Shell 3.22.
 
 Extension page: https://extensions.gnome.org/extension/516/force-thumbnails-on-alt-tab/
